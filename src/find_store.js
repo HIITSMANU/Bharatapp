@@ -1,8 +1,8 @@
 import React from 'react';
-function find() {
+function Find() {
   return (
     <div className="App">
-        <img src={"images/map.jpeg"} className="map" alt="logo" />
+        console.log{("my firs react page")};
     </div>
   );
 }
