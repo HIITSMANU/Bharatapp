@@ -1,15 +1,22 @@
 import React from 'react';
-function Heading(props){
-  const {text}=props;
-  return <h1>{text}</h1>;
-}
+import './App.css';
+/*import { FindStore } from './pages/FindStore';
+import { Cities } from './pages/Cities';
+import { Services } from './pages/Services';*/
+import { Item } from './pages/Item';
+import { Products } from './pages/Products';
+import { AllRoutes } from './pages/AllRoutes';
 function App() {
   return (
-    <div>
-      <div className="App">
-      <Heading text="Codebeat" />
-    </div><h1>Counter</h1>
-    </div>
+    /*<h1>Hello</h1>*/
+    /* <FindStore />
+      <Cities />
+      <Services/>
+      <Item/>
+      <Products/>
+      */
+    <> 
+    <AllRoutes/> </>
   );
 }
 
