@@ -94,7 +94,15 @@ export let ProductDetails = () => {
                   <span className="actual-price" id="actual-price">₹{product.price}</span>
                   <span className="strike-price" id="strike-price">₹49,000</span>
               </div>
+              <div className='item-category'>
               <p>Upon price drop,<span color="purple">Notify Me</span></p>
+              <p>Caterory: {product.category}</p>
+              <p>Shipping: {product.shipping}</p>
+              <p>Star: {product.star}</p>
+              <div>
+
+              </div>
+              </div>
               <div className="second-div">
                   <div className="product-price">
                       <Stack>

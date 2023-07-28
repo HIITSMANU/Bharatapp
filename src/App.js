@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-/*import { FindStore } from './pages/FindStore';
+import { FindStore } from './pages/FindStore';
 import { Cities } from './pages/Cities';
-import { Services } from './pages/Services';*/
+/*import { Services } from './pages/Services';*/
 import { Item } from './pages/Item';
 import { Products } from './pages/Products';
 import { AllRoutes } from './pages/AllRoutes';
@@ -13,10 +13,11 @@ function App() {
       <Cities />
       <Services/>
       <Item/>
+      <AllRoutes/>
       <Products/>
       */
-    <> 
-    <AllRoutes/> </>
+    <><AllRoutes/>
+     </>
   );
 }
 

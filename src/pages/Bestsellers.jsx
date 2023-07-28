@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { ProductCard } from "./ProductCard.jsx";
 // import sort from "../Images/Sort.png"
 import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
 import "./ProductCard.css";
 import { IconButton,Icon, Radio, Checkbox } from '@chakra-ui/react'
 import {ChevronDownIcon,CloseIcon } from '@chakra-ui/icons'
