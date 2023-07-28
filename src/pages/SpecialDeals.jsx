@@ -6,7 +6,7 @@ import { useContext } from "react";
 import "./ProductCard.css";
 import { IconButton,Icon, Radio, Checkbox } from '@chakra-ui/react'
 import {ChevronDownIcon,CloseIcon } from '@chakra-ui/icons'
-export const Bracelets = () => {
+export const SpecialDeals = () => {
   const api = "http://localhost:3/products";
 const [showmore,setShowmore]=useState(false);
 
@@ -21,7 +21,7 @@ const [showmore,setShowmore]=useState(false);
     let res = await fetch(api);
     let data1 = await res.json();
     setFData(data1);
-    // setFData1(data1);
+    setFData1(data1);
 
   };
 
@@ -42,7 +42,7 @@ function handleprice(pricerange){
     if(pricerange){
         const[min,max]=pricerange.split("-");
         console.log(min)
-        let newdata=fData2.filter((el)=>el.price>=parseInt(min)&&el.price<=parseInt(max));
+        let newdata=fData.filter((el)=>el.price>=parseInt(min)&&el.price<=parseInt(max));
         setFData1(newdata);}
 }
 
