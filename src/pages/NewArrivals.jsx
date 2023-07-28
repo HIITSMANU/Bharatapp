@@ -267,7 +267,7 @@ function handleprice(pricerange){
                             <div className="filcatsub">
                             <label >
                                 <i></i>
-                                    <Radio name="checkbox" id="checkbox" bg="#8863fb"></Radio>
+                                    <Radio name="checkbox" id="checkbox" ></Radio>
                                     <span className="filtext">
                                         <span>Earrings <em>(2295)</em></span>
                                         
