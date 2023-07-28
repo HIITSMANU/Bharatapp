@@ -1,7 +1,10 @@
 import {Stack,Button, color} from "@chakra-ui/react"
+import {Services} from "./Services"
+import { Cities } from "./Cities"
 
 export const FindStore=()=>{
     return(
+        <>
     <div className="main">
         <div className="grid-container">
             <div className="grid-item">
@@ -21,6 +24,9 @@ export const FindStore=()=>{
             </div>
         </div>
     </div>
+    <Cities/>
+    <Services/>
+    </>
     )
     
 }
