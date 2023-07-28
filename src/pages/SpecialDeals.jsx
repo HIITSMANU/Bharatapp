@@ -6,7 +6,7 @@ import { useContext } from "react";
 import "./ProductCard.css";
 import { IconButton,Icon, Radio, Checkbox } from '@chakra-ui/react'
 import {ChevronDownIcon,CloseIcon } from '@chakra-ui/icons'
-export const Bracelets = () => {
+export const SpecialDeals = () => {
   const api = "http://localhost:3/products";
 const [showmore,setShowmore]=useState(false);
 
