@@ -15,16 +15,20 @@ import {
   Divider,
   Button,
   ButtonGroup,
-  Heading
+  Heading,
+  Alert,
+  AlertIcon,AlertTitle
 } from "@chakra-ui/react";
 
 export const ProductCard = (props) => {
   const { id, image, price, name, shipping, star, category } = props;
   const [wishlist,setwishlist]=useState(false);
+  const [book,setbook]=useState(false);
   const navigate = useNavigate();
   function nav() {
     navigate(`/products/${id}`);
   }
+  const [msg,setmsg]=useState(false);
   const addtowishlist =  async () => {
     let dataobj={
       id:id,
@@ -44,6 +48,7 @@ export const ProductCard = (props) => {
     });
 
     setwishlist(!wishlist);
+    setmsg(!msg);
 }
   return (
     
@@ -55,6 +60,13 @@ export const ProductCard = (props) => {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         /></Helmet>
          <button className="wishlist" onClick={()=>addtowishlist()} style={{color: wishlist? "red":"black"}}><i class="fa fa-heart"></i></button>
+         {
+          msg &&  <Alert mt="-1" maxW="sm" maxH="sm" status="success"><AlertIcon/>
+          <AlertTitle>
+            Item is added successfully
+          </AlertTitle>
+          </Alert>
+         }
         <Image src={image} alt={id} borderRadius="lg" ml="12" />
        
         <Stack spacing="1" mt="-2">
@@ -72,13 +84,19 @@ export const ProductCard = (props) => {
         <ButtonGroup spacing="5" mt="2">
           <Button borderRadius= "10px"
     border=" solid 1px #4f3267;"
-    fontFamily= "InterRegular,Helvetica Neue,Helvetica,Arial,sans-serif;" color=" #231535;">
+    fontFamily= "InterRegular,Helvetica Neue,Helvetica,Arial,sans-serif;" color=" #231535;" onClick={()=>setbook(!book)}>
             Book Try at Home
+          
           </Button>
           <Button border= "solid 1px #75d167;"  fontFamily= "InterRegular,Helvetica Neue,Helvetica,Arial,sans-serif;" color=" #75d167;" >
             Live Video Call
           </Button>
         </ButtonGroup>
+        {book && <Alert mt="-1" maxW="sm" maxH="sm" status="error"><AlertIcon/>
+      <AlertTitle>
+        Oops! free try at home not available
+      </AlertTitle>
+      </Alert>}
         </CardBody>
         
     </Card>
