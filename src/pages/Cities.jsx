@@ -2,7 +2,7 @@
 
 export const Cities=()=>{
     return(
-        <div classNameName="city-main">
+        <div className="city-main">
             <div className="city-div">
                 <div className="city-photo">
                 <img src={require('../images/bangalore.png')}/>

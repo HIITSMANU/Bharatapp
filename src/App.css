@@ -76,9 +76,8 @@
 }
 .city-main{
     margin-top: 48px;
-    margin-left: 5%;
     margin-right: 5%;
-    width:auto;
+    width:100%;
     display: grid;
     display: flex;
     justify-content:space-between;
