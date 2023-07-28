@@ -94,29 +94,18 @@ function handleprice(pricerange){
                 </div>
             </div>
             <div class="sortdiv">
-                    <div>
                         <div className="selector">
-                            Sort By : Featured
-                        </div>
-                        <div className="v">
-                            <IconButton mt="2" ml="-1" bg="white" onClick={()=>setShowDropdown(!showDropdown)} icon={<ChevronDownIcon />} />
-                        </div>
-                    </div>
-                    {showDropdown &&(
-                    <div class="list">
-                    <ul class="sortlist">
-                        <li>Latest</li>
-                        <hr/>
-                        <li>Discount</li>
-                        <hr/>
-                        <li>Featured</li>
-                        <hr/>
-                        <li>Price: Low to High</li>
-                        <hr/>
-                        <li>Price: High to Low</li>
-                        <hr/>
-                    </ul>
-                    </div>)}
+                        <form action="#">
+                <label>Sort By:</label>
+                <select name="sort"  className="sort-selection" >
+                <option value="lowest">Latest</option>
+                <option value="highest">Discount</option>
+                <option value="highest">Featured</option>
+                <option value="alpha">Price: Low to High</option>
+                <option value="alpha">Price: High to Low</option>
+                </select>  
+            </form>
+            </div>        
             </div>
         </div>
             <div class="total">
