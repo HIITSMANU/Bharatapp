@@ -88,7 +88,7 @@ function handleFilter(){
                         <option value="alpha">Price(z-a)</option>
                         </select>  
                     </form>
-                    </div>
+            </div>
         </div>
             <div className="total">
                 <h1>Earrings </h1>
