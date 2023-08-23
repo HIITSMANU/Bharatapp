@@ -1,0 +1,15 @@
+.t30{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     /* background-color: red; */
+}
+.t25{
+    width:240px;
+    height:240px;
+    margin-left: 600px;
+}
+/* .ty25{
+    background-color: darkorchid;
+} */

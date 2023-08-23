@@ -1,0 +1,68 @@
+/* LoginForm.css */
+.loginform {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, #d773d7 0%, #48abe0 100%);
+            box-shadow: rgba(43, 114, 172, 0.4) 5px 5px, rgba(46, 166, 240, 0.3) 10px 10px, rgba(171, 31, 120, 0.2) 15px 15px, rgba(205, 25, 139, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  .midelem{
+    text-align: center;
+  }
+  .newelem{
+    text-align: center;
+  }
+  
+  .loginform input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .loginform button {
+    padding: 10px;
+    margin-top: 30px;
+    padding-left:80px;
+    padding-right: 70px;
+    text-align: center;
+    /* margin-left: 60px; */
+    background:linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251))
+    transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; 
+  }
+  
+   .loginform button:hover {
+    background-color: #45a049;
+  } 
+  .log h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(15, 10, 44);
+  }
+  .log p{
+    color: rgb(69, 65, 65);
+  }
+  .gifg{
+    display: flex;
+    justify-content: center;
+  }
+  .imageclone {
+    display: flex;
+    justify-content: center;
+
+  }
+  .imageclone img{
+    width: 100px;
+  }

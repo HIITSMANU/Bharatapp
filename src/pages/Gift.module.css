@@ -1,0 +1,318 @@
+.one{
+    box-shadow: rgba(200, 200, 200, 0.5) 0px 2px 4px 0px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    position: absolute;
+    cursor: default;
+    width: 100%;
+    /* top: 42px; */
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    z-index: 1;
+    /* transform: translateY(-150%);  */
+} 
+
+@media screen and (min-width: 993px){
+.two {
+    display: none;
+}
+}
+.b1{
+    touch-action: manipulation;
+     -webkit-appearance: button; 
+    text-transform: null;
+    overflow:visible;
+    background-color: transparent;
+    border-style: null;
+    color: inherit;
+    font-size: 1em;
+    margin: 0;
+    outline: 0;
+}
+@media screen and (min-width: 993px){
+    .sp {
+        display: none;
+    }
+}
+@media screen and (min-width: 993px){
+    .three {
+        flex-basis: 90%;
+    }
+}
+.three{
+    display: flex;
+    flex-flow: wrap; 
+}
+@media screen and (min-width: 993px){
+    .four {
+        flex-basis: 25%;
+    margin-top: 0px;
+    border-top: none;
+    align-self: stretch;
+    }
+}
+.four{
+    overflow: hidden;
+    position: relative;
+}
+.an1{
+    -webkit-box-align: center;
+}
+
+@media screen and (min-width: 993px){
+    .an1{
+        height: 100%;
+    display: block;
+    }
+}
+a{
+    touch-action: manipulation;
+    background-color: transparent;
+    outline: 0;
+    text-decoration: none;
+    color: #33363e;
+}
+.img1{
+    animation: auto ease 0s 1 normal none running none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: block;
+}
+.five{
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    right: 16px;
+    text-align: center;
+}
+@media screen and (min-width: 993px){
+.six {
+    flex-basis: 25%;
+    margin-top: 0px;
+    border-top: none;
+    align-self: stretch;
+}
+}
+.six{
+position: relative;
+overflow: hidden;
+}
+@media screen and (min-width: 993px){
+    .an2 {
+        height: 100%;
+    display: block;
+    }
+}
+.an2{
+    -webkit-box-align: center;
+    align-items: center;
+}
+.img2{
+    max-width: 100%;
+    animation: auto ease 0s 1 normal none running none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: block;
+}
+img{
+    border-style: none;
+    vertical-align: middle;
+    border: 0;
+}
+.seven{
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    right: 16px;
+    text-align: center;
+}
+@media screen and (min-width: 993px){
+    .seven {
+        flex-basis: 25%;
+    margin-top: 0px;
+    border-top: none;
+    align-self: stretch;
+    }
+}
+.seven{
+    overflow: hidden;
+    position: relative;
+}
+.an2{
+    display: flex;
+    -webkit-box-align: centre;
+    align-items: center;
+}
+@media screen and (min-width: 993px){
+    .eight {
+        display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    }
+}
+.eight{
+    margin:0px;
+}
+@media screen and (min-width: 1440px){ 
+.nine {
+    padding: 30px 0px 0px 26px;
+}
+} 
+ @media screen and (min-width: 1280px){ 
+    .nine {
+        padding-left: 24px;
+    }
+}
+@media screen and (min-width: 993px){ 
+    .nine {
+        padding: 11px 0px 11px 18px;
+    flex-basis: 16%;
+    }
+}
+.nine{
+    padding: 0px 0px 14px 14px;
+}
+.head1{
+    font-family:MuliBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@media screen and (min-width: 1280px){ 
+
+.head1 {
+    font-size: 1.1rem;
+}
+}
+@media screen and (min-width: 1024px){ 
+
+.head1 {
+    font-size: 1rem;
+}
+}
+@media screen and (min-width: 1024px){ 
+ .head1 {
+        font-size: 0.9rem;
+}
+}
+.head1{
+    margin: 0px 0px 26px;
+    position: relative;
+    color: rgb(35, 21, 53);
+    font-size: 1.1rem;
+    line-height: 18px;
+    height: 18px;
+    text-align: left;
+}
+.unl{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.list1{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.an4{
+    display: flex;
+    text-decoration: none;
+    -webkit-box-align: center;
+    align-items: center;
+}
+a{
+    touch-action: manipulation;
+    background-color: transparent;
+    outline: 0;
+    color: #33363e;
+}
+@media screen and (min-width: 1280px){ 
+.head2 {
+    font-size: 1.1rem;
+}
+}
+@media screen and (min-width: 1024px){ 
+    .head2 {
+        font-size: 1rem;
+}
+}
+@media screen and (min-width: 993px){ 
+        .head2 {
+            font-size: 0.9rem;
+}
+}
+.head2{
+    margin: 0px 5px 0px 9px;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 18px;
+    white-space: normal;
+    text-align: left;
+    padding: 6px 0px;
+    color: rgb(51, 54, 62);
+}
+@media (prefers-color-scheme:dark)
+{
+    .one{
+        box-shadow: rgba(200, 200, 200, 0.5) 0px 2px 4px 0px;
+        
+        background-color: rgba(0, 0, 0, 0.819); 
+        display: flex;
+        justify-content: space-around;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        position: absolute;
+        cursor: default;
+        width: 100%;
+        top: 42px;
+        left: 0px;
+        right: 0px;
+         overflow: hidden;
+        z-index: 1;
+        /* transform: translateY(-150%);  */
+    } 
+    .main500{
+        background-color: rgba(0, 0, 0, 0.819); 
+    }
+    a{
+        touch-action: manipulation;
+        background-color: transparent;
+        outline: 0;
+        text-decoration: none;
+        color: #fff;
+    }
+    .head1{
+        margin: 0px 0px 26px;
+        position: relative;
+        color: #fff;
+        font-size: 1.1rem;
+        line-height: 18px;
+        height: 18px;
+        text-align: left;
+    }
+    .head2{
+        margin: 0px 5px 0px 9px;
+        font-weight: normal;
+        font-size: 1.1rem;
+        line-height: 18px;
+        white-space: normal;
+        text-align: left;
+        padding: 6px 0px;
+        color: #fff;
+    }
+    a{
+        touch-action: manipulation;
+        background-color: transparent;
+        outline: 0;
+        text-decoration: none;
+        color: #ffff;;
+    }
+    button{
+        color:#ffff;
+    }
+
+}

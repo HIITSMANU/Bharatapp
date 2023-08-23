@@ -1,0 +1,39 @@
+#Card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    margin: 10px;
+    border-radius: 20px;
+    /* display: flex;
+    width: 600px; */
+  }
+  .submitbtn2{
+    padding: 10px;
+    margin-top: 30px;
+    padding-left:80px;
+    padding-right: 70px;
+    text-align: center;
+    margin-left: 60px; 
+    margin-bottom: 20px;
+    background:linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251))
+    transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #DetailsDiv h1{
+      color: rgb(44, 44, 97);
+      text-align: center;
+  } 
+  #DetailsDiv p{
+    color: grey;
+    text-align: center;
+  }
+  #ImgDiv{
+    display:flex;
+    flex-wrap: wrap;
+    
+  }
+  #ImgDiv img{
+    border: 2px solid rgb(243, 185, 195);
+    border-radius: 10px;
+  }

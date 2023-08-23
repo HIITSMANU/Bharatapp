@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import {Stack,Button,Wrap,WrapItem, Alert} from "@chakra-ui/react"
+import {Stack,Button,Wrap,WrapItem} from "@chakra-ui/react"
 import { FaShoppingCart } from "react-icons/fa";
+import styles from "../pages/AppStyle.module.css";
 
 export let ProductDetails = () => {
     let [product, setProduct] = useState([]);
@@ -53,48 +54,44 @@ export let ProductDetails = () => {
    /*<Item id={product.id} img={product.image} pname={product.name} price={product.price} category={product.category} />*/
     return (
       <>
-      <div className="item">
-      <div className="item-head">
-          <div className="item-head-image" id="item-head-image">
-          <img src={product.image} id='item-head-image'  alt="sapphire" />
+      <div className={styles.item}>
+      <div className={styles.item_head}>
+          <div className={styles.item_head_image} id="item-head-image">
+          <img src={product.image} id='item-head-image'  alt="product-image" />
           </div>
-          <div className="item-head-price">
-              <div className="head-elements">
-              <div className="first-div">
-                  <div className="product-name-div">
+          <div className={styles.item_head_price}>
+              <div className={styles.head_elements}>
+              <div className={styles.first_div}>
+                  <div className={styles.product_name_div}>
                       <div className="rating">
-                      <img src={require(`../images/rating.png`)} alt="heart" />
+                      <img src={require(`../Images/rating.png`)} alt="heart" />
                       </div>
-                      <div><h1 className="product-name" id='product-name'>{product.name}</h1></div>
+                      <div><h1 className={styles.product_name} id='product-name'>{product.name}</h1></div>
                   </div>
-                  <div className="space-div">
+                  <div className={styles.space_div}>
                   </div>
-                  <div className="icon-div">
-                      <div className="heart-icon">
-                          <span id="">
-                          <img src={require(`../images/heart.png`)} alt="heart" />  
-                          </span>
-                      </div>
-                      <div className="share-icon">
-                      <span id="share-icon">
-                          <img src={require(`../images/share.png`)} alt="share" />  
-                          </span>
-                      </div>
-                      <div className="copylink">
-                      <span>
-                          <img src={require(`../images/heart.png`)} alt="copylink" />  
-                          </span>
-                      </div>
+                  <div className={styles.icon}>
+                     {/*
+                        <div className="heart-icon">
+                        <span id="">
+                        <img src={require(`../Images/heart.png`)} alt="heart" />  
+                        </span>
+                    </div>
+                    <div className="share-icon">
+                    <span id="share-icon">
+                        <img src={require(`../Images/share.png`)} alt="share" />  
+                        </span>
+    </div>*/ } 
                   </div>
               </div>
-              <div className="bestseller">
+              <div className={styles.bestseller}>
                   <span>BESTSELLER</span>
               </div>
-              <div className="price" id="price">
-                  <span className="actual-price" id="actual-price">₹{product.price}</span>
-                  <span className="strike-price" id="strike-price">₹49,000</span>
+              <div className={styles.price} id="price">
+                  <span className={styles.actual_price} id="actual-price">₹{product.price}</span>
+                  <span className={styles.strike_price} id="strike-price">₹{product.price+ 1081}</span>
               </div>
-              <div className='item-category'>
+              <div className={styles.item_category}>
               <p>Upon price drop,<span color="purple">Notify Me</span></p>
               <p>Caterory: {product.category}</p>
               <p>Shipping: {product.shipping}</p>
@@ -103,8 +100,8 @@ export let ProductDetails = () => {
 
               </div>
               </div>
-              <div className="second-div">
-                  <div className="product-price">
+              <div className={styles.second_div}>
+                  <div className={styles.product_price}>
                       <Stack>
                           <Wrap spacing={4}>
                               <WrapItem>
@@ -113,9 +110,9 @@ export let ProductDetails = () => {
                           </Wrap>
                       </Stack>
                   </div>
-                  <div className="price-space-div">
+                  <div className={styles.price_space_div}>
                   </div>
-                  <div className="find-store">
+                  <div className={styles.find_store}>
                       <Stack>
                           <Wrap spacing={4}>
                               <WrapItem>
@@ -128,7 +125,7 @@ export let ProductDetails = () => {
                   </div>
           </div>
       </div>
-     <div className="item-details">
+     <div className={styles.item_details}>
      </div>
   </div>
   </>

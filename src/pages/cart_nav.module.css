@@ -1,0 +1,285 @@
+@media (prefers-color-scheme:dark)
+{
+    .one11{
+        font-size: 1.4rem;
+    z-index: 20;
+    position: fixed;
+    height: 7.2rem;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+     box-shadow: rgb(187, 187, 187) 0px 2px 0.5rem; 
+     display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    top: 24px;
+    background: rgb(44,44,44);
+    background: linear-gradient(NaNdeg, rgba(44,44,44,1) 40%, rgba(40,40,40,0.23194278814853764) 91%);
+        box-shadow: rgb(35, 21, 53) 0px 2px 0.5rem;
+    }
+    .ek52{
+        
+        
+        font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.2rem;
+        color:aqua;
+    }
+    .eleven1155{
+        margin-left: auto;
+        cursor: pointer;
+        margin-right: 23px;
+        display: flex;
+        -webkit-box-align: end;
+        align-items: end;
+        color:#ffff;
+    }
+}
+ 
+@media (prefers-color-scheme:light)
+{
+.one11{
+    font-size: 1.4rem;
+    z-index: 20;
+    position: fixed;
+    height: 7.2rem;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(187, 187, 187) 0px 2px 0.5rem;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    top: 24px;
+}
+}
+@media screen and (min-width: 993px){
+.two22 {
+    transform: scale(1);
+    margin-left: 2.8rem;
+}
+}
+.two22{
+    background: url(https://assets.cltstatic.com/images/responsive/spriteImage1.png) -562px -378px / 832px no-repeat;
+    display: block;
+    cursor: pointer;
+    width: 1.7rem;
+    height: 1.6rem;
+}
+@media screen and (min-width: 993px){
+    .three33 {
+        margin-left: 1.4rem;
+    flex-basis: 30%;
+    }
+}
+.three33{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+.four44{
+    width: 300px;
+    margin-right: 15px;
+    height: 100%;
+    font-size: 0px;
+}
+.three33 > h2 > div {
+    margin-top: 0px;
+}
+.five55{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 2px 0;
+    font-size: 0;
+}
+ .five55 > img{
+     width: auto;
+    height: auto;
+    
+ }
+
+.mun{
+    fill: currentColor;
+    vertical-align: middle;
+    width: 1900px;
+    height: 150px; 
+    
+
+}
+.six66{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: MuliSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(35, 21, 53);
+    border: none;
+    background-color: rgb(232, 225, 255);
+    border-radius: 12px;
+    width: 342px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.six66 > .seven77{
+    background: rgb(255, 255, 255);
+    border: 2.11px solid rgb(232, 225, 255);
+    border-radius: 10px;
+    opacity: 1;
+    color: rgb(35, 21, 53);
+}
+.seven77{
+    width: 50%;
+    left: 0%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    transition: left 0.2s linear 0s;
+}
+.eight88 > .one98{
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.nine99:first-child{
+    border-left: none;
+}
+.six66 > div > .one98{
+    display: flex;
+    font-size: 1.4rem;
+    color: rgb(79, 50, 103);
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-right: none;
+    transition-delay: 0.9s;
+}
+.nine99{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    line-height: 40px;
+    cursor: pointer;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ten10:last-child{
+    border-right:none;
+}
+
+.ten10{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    color: rgb(35, 21, 53);
+    text-align: center;
+    background: transparent;
+    border-right: 1px solid rgb(136, 99, 251);
+    line-height: 40px;
+    cursor: pointer;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.eleven1155{
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 23px;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: end;
+}
+.ek52{
+    color: rgb(79, 50, 103);
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.eleven1155 > .mum5{
+    display: inline-block;
+    background: url(https://assets.cltstatic.com/images/responsive/cart-checkout.png) -307px -17px / 340px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+
+
+.mum5{
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 993px)
+{
+
+.one11 {
+    height: 4.8rem;
+    flex-flow: wrap;
+}
+}
+@media screen and (max-width: 992px)
+{
+.four44 {
+    width: 102px;
+    margin-right: 11px;
+}
+}
+@media screen and (max-width: 992px)
+{
+.five55 {
+    padding: 8px 0;
+    margin-top: 3px;
+}
+}
+@media screen and (max-width: 992px)
+{
+ .mun{
+    width: auto;
+    height: auto;
+}
+}
+@media (max-width: 993px)
+{
+.six66 {
+    flex-basis: 100%;
+    height: 36px;
+    width: 100%;
+    max-width: 274px;
+}
+}
+@media (max-width: 993px)
+{
+    .ek52{
+        display: none;
+    }
+}
+@media (max-width: 992px)
+{
+.six66 {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+}
+@media (max-width: 993px)
+{
+.six66 > div > .nine99{
+    font-size: 1.2rem;
+}
+}
+@media (max-width: 992px)
+{
+.nine99 {
+    line-height: 30px;
+    font-size: 1.2rem;
+    cursor: default;
+}
+}
+@media (max-width: 992px)
+{
+.ten10 {
+    line-height: 30px;
+    font-size: 1.2rem;
+    cursor: default;
+}
+}

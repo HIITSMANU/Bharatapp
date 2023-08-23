@@ -1,0 +1,1149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .main-homepage{
+    border: 2px solid rgb(82, 79, 79);
+}*/
+/* .carosel{
+    border: 2px solid green;
+} */
+
+.carosel_slider{
+    position: relative;
+    z-index: -1;
+}
+
+.slick_slider{
+    overflow: hidden;
+}
+.slick_slide{
+    outline: none;
+}  
+.slick_dots{
+    position: absolute;
+    top: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.top_images_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border: 2px solid rgb(43, 255, 0); */
+    gap: 1.6%;
+    margin: 1.8%;
+}
+.photo_top_left{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(2, 255, 99); */
+}
+.photo_top_right{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 3%;
+}
+.photo_top_right_1{
+    height: 100%;
+    width: 100%;
+}
+.middle_vid_div {
+    margin: 2%;
+    /* border: 6px solid blue; */
+    position: relative;
+}
+
+.video_middle {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+}
+
+.arrow_img{
+    position: absolute;
+    top: 65%;
+    left: 86%;
+    z-index: 1;
+    width: 8%;
+}
+.pill_part{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    margin: 1%;
+}
+.pill_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1% 1.3% 1%;
+    /* border: 4px solid red; */
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+.pill_photo{
+    width: 32%;
+    height: 94%;
+    margin: 0.9%;
+}
+.effect_part_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid green; */
+    margin: 4% 1% 5% 1%;
+    text-align: center;
+}
+.side_photo_container{
+    margin: 0 0.4% 0 0.5%;
+    /* background-color: blue; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    overflow: hidden;
+}
+.effect_photo_side{
+    width: 100%;
+    /* margin: 1% 0.5% 1% 1%; */
+    transition: all 0.3s ease-in-out;
+}
+/* .effect-photo-side1:hover{
+    transform: scale(1.1);
+} */
+/* .effect-photo-side{
+    width: 32%;
+    height: 12%;
+    margin: 1% 0.5% 1% 1%;
+    transition: all 0.2s ease-in-out;
+} */
+.effect_photo_side:hover{
+    transform: scale(1.065);
+}
+.effect_mid{
+    /* border: 3px solid yellow; */
+    padding-bottom: 24px;
+}
+.effect_mid_img_div{
+    /* border: 3px solid black; */
+    margin: 2% 0.3% 0% 0.3%;
+    padding: 0 0 1% 0;
+    overflow: hidden;
+    /* padding-right: 1.5%; */
+}
+.effect_photo_mid{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    /* margin: 1% 1% 10% 1%; */
+    /* margin: 0% 0% 8% 0%; */
+}
+.effect_photo_mid:hover{
+    transform: scale(1.060);
+}
+.view_btn_div{
+    margin-top: 20px;
+    border-radius: 20px;
+    /* border: 3px solid red; */
+}
+.view_btn{
+    padding: 2.2% 6.2%;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 100;
+    background-color: white;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1)0%, rgb(81, 71,231) 100%);
+    border-image-slice: 1;
+    transition: all 0.3s ease-in-out;
+}
+.view_btn:hover {
+    outline: none;
+    box-shadow: 0 0 4px rgba(81, 71, 231, 0.5),
+    0 0 6px rgba(151, 76, 221, 0.5),
+    0 0 8px rgba(255, 87, 247, 0.5);
+}
+.four_img_div{
+    /* border: 4px solid black;     */
+    display: flex;
+    padding: 1%;
+    margin-bottom: 5%;
+    padding: 0.8% 0.8% 10% 0.8%;
+    /* justify-content: center;
+    align-items: center; */
+    padding-bottom: 18%;
+}
+/* .four-img-row{
+    display: flex;
+} */
+.four_img{
+    width: 96%;
+    height: 72%;
+    margin: 1.2%;
+}
+.four_img_webp{
+    width: 96%;
+    height: 72%;
+    margin: 1.2%;
+}
+.trail_img_div{
+    display: flex;
+    text-align: center;
+}
+.trail_img_div_1,
+.trail_img_div_2 {
+  border: 2px solid transparent;
+  position: relative;
+  margin: 3%;
+}
+.trail_img_div_1 {
+  /* border-color: red; */
+  padding-right: 20px;
+}
+.trail_img_div_2 {
+  /* border-color: green; */
+  padding-right: 20px;
+}
+.trail_img_1,
+.trail_img_2 {
+  width: 68%;
+  height: 100%;
+}
+.trail_img1_contents,
+.trail_img2_contents {
+  position: absolute;
+  top: 30%; 
+  left: 68%;
+  z-index: 1;
+}
+
+.trail_title{
+    font-size: 22px;
+}
+
+.trail_img1_contents p,
+.trail_img2_contents p {
+  margin: 0;
+}
+.appointment_btn {
+  color: white;
+  font-size: 19px;
+  padding: 2% 4%;
+  border-radius: 5px;
+  background: rgb(170, 39, 155);
+  background: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+  border: none;
+}
+.trail_img2_contents select {
+    padding: 8% 18%;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1)0%, rgb(81, 71,231) 100%);
+    border-image-slice: 1;
+    font-size: 16px;
+    color: #333;
+}
+.trail_img2_contents select option{
+    background-color: whitesmoke;
+    padding: 6px;
+}
+
+.trail_img2_contents select{
+    padding: 8% 18%;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+    border-image-slice: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+.trail_img2_contents option{
+    background-color: whitesmoke;
+    padding: 6px;
+}
+.trail_img2_contents option[disabled]:first-child{
+    color: #999;
+}
+.old_gold_div{
+    /* border: 6px solid black; */
+    display: flex;
+    position: relative;
+    background-color: rgba(238, 228, 241, 0.863);
+    text-align: center;
+}
+.old_gold_img{
+    /* border: 2px solid green; */
+    margin-right: 6%;
+    margin-left: 6%;
+}
+.old_gold_content{
+    font-family:fantasy;
+    font-stretch:semi-expanded;
+    line-height: 1.2;
+    /* border: 2px solid red; */
+    padding: 5%;
+    position: absolute;
+    top: 6%;
+    left: 38%;
+    /* left: 30%; */
+}
+.design_hr{
+    /* border: 1px solid; */
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+    border-image-slice: 1;
+}
+.knowmore_oldgold_btn{
+    color: white;
+    font-size: 19px;
+    padding: 2% 4%;
+    border-radius: 5px;
+    background: rgb(170, 39, 155);
+    background: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+    border: none;
+}
+.aeroplane{
+    display: flex;
+    justify-content: center;
+}
+.Trust_div{
+    background-color: rgb(51, 3, 78);
+    padding: 1% 5% 4% 5%;
+    text-align: center;
+}
+.Trust_div_image{
+    display:flex;
+    justify-content: center;
+}
+.Trust_purple_img{
+    /* border: 2px solid green; */
+    margin-bottom: 2%;
+}
+.Trust_div p{
+    color: rgba(226, 207, 238, 0.932);
+    margin-bottom: 1.8%;   
+    font-size: 14px;
+    font-stretch: extra-expanded;
+    line-height: 1.5;
+}
+.knowmore_trust_btn{
+    padding: 1.5% 4% 1.5% 4%;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(204, 146, 238) 0%, rgb(87, 77, 224) 80%);
+    border-image-slice: 1;
+    transition: all 0.3s ease-in-out;
+}
+.knowmore_trust_btn:hover{
+    box-shadow: 0 0 2px rgba(81, 71, 231, 0.5),
+    0 0 4px rgba(151, 76, 221, 0.5),
+    0 0 5px rgba(153, 33, 168, 0.582);
+}
+.title_div{
+    display: flex;
+}
+.title_div p{
+    /* border: 2px solid red; */
+    font-size: 36px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: extra-expanded;
+}
+.gender_hover_btn_div{
+    /* border: 3px solid green; */
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.female{
+    background-color: white;
+}
+.male{
+    background-color: white;
+}
+.female:hover{
+    background-color: purple;
+}
+.female:hover .male{
+    background-color: white;
+}
+.male:hover{
+    background-color: purple;
+}
+.male:hover .female{
+    background-color: white;
+}
+.banner_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner_img2{
+    width: 94%;
+    margin: 2%;
+    border: 2px solid rgb(255, 231, 14);
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: -12px 12px 15px rgb(255, 231, 14,0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes tilt-shaking{
+    0% { transform: rotate(0deg); }
+    5% { transform: rotate(1deg); }
+    10% { transform: rotate(1.5deg); }
+    15% { transform: rotate(2deg); }
+    20% { transform: rotate(2.5deg); }
+    25% { transform: rotate(3deg); }
+    30% { transform: rotate(2.5deg); }
+    35% { transform: rotate(2deg); }
+    40% { transform: rotate(1.5deg); }
+    45% { transform: rotate(1deg); }
+
+    50% { transform: rotate(0deg); }
+    
+    55% { transform: rotate(-1deg); }
+    60% { transform: rotate(-1.5deg); }
+    65% { transform: rotate(-2deg); }
+    70% { transform: rotate(-2.5deg); }
+    75% { transform: rotate(-3deg); }
+    80% { transform: rotate(-2.5deg); }
+    85% { transform: rotate(-2deg); }
+    90% { transform: rotate(-1.5deg); }
+    95% { transform: rotate(-1deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.banner_img2:hover{
+    animation:tilt-shaking 0.5s 0.2s;
+}
+.banner_img2:active{
+    transform: scale(1.045);
+}
+
+.perks_div{
+    /* border: 4px solid blue; */
+    background: rgb(69,0,77);
+    background: radial-gradient(circle, rgba(69,0,77,1) 0%, rgba(53,13,77,1) 68%, rgba(49,14,74,1) 95%);
+    padding: 2% 1% 1.5% 1%;
+}
+.row1, .row2{
+    display: flex;
+}
+
+.truck_div, .spinned_div, .hand_div, .dimond_div{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 1.5% 0.3% 1.5% 0.3%;
+}
+.perks_img{
+    width: 26%;
+    height: 70%;
+    /* border: 3px solid black; */
+    margin: 1.5% 1% 0% 1.5%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-star;
+    /* border: 3px solid green; */
+    padding: 3% 3% 3% 0.5%;
+    text-align: left;
+}
+.content p{
+    font-size: 12px;
+    color: rgb(209, 180, 223);
+}
+.content h3{
+    font-size: 16px;
+    color: white;
+}
+.truck_div{
+    margin-right: 3%;
+    margin-left: 10%;
+}
+.spinned_div .content{
+    padding: 5% 1% 3% 0.5%;
+}
+.spinned_div img{
+    margin-right: 1%;
+    margin-left: 5%;
+}
+.dimond_div .content{
+    padding: 5% 1% 3% 1%;
+}
+.hand_div img{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+.hand_div .content{
+    padding: 3% 2% 3% -0.5%;
+}
+.hand_div{
+    margin-left: 3%;
+}
+
+.review_cards{
+    margin: 3% 0% 5% 0%;
+    /* border: 3px solid black; */
+    padding: 3% 6% 5% 6%;
+    text-align: center;
+    background: rgb(235,235,235);
+    background: linear-gradient(0deg, rgba(235,235,235,1) 28%, rgba(246,246,246,1) 59%, rgba(255,255,255,1) 95%);
+}
+.review_card_div{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 2%; */
+    overflow: hidden;
+}
+.icon_div{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 1% 2% 0%;
+}
+.insta_icon{
+    width: 3%;
+}
+.review_content{
+    /* border: 2px solid red; */
+    padding: 4% 16% 4% 16%;
+    line-height: 1.6;
+    font-stretch: extra-expanded;
+}
+.review{
+    color: #999;
+    font-size: 27px;
+}
+.review_author{
+    font-stretch:ultra-expanded;
+}
+.hr_style_line{
+    margin: 0% 23% 0% 23%;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(148, 73, 192) 0%, rgb(230, 133, 221) 100% , rgb(61, 50, 219) 80%);
+    border-image-slice: 1;
+}
+.read_more_review_btn{
+    padding: 0.8% 2.5% 0.8% 2.5%;
+    margin: 3% 0% 1% 0% ;
+    color: rgb(0, 17, 255);
+    text-shadow: 0 0 0.1em rgb(189, 189, 245), 0 0 0.2em rgb(225, 172, 241);
+    border: 1px solid rgb(22, 14, 146);
+}
+.shop_insta_div{
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0% 5% 0%;
+}
+.title{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-between;
+    color: #504d4d;
+}
+.title1{
+    /* border: 3px solid green; */
+    padding: 1.5%;
+    font-size: 2.3em;
+    /* font-weight: bold; */
+    text-decoration: underline;
+    font-stretch: ultra-expanded;
+    /* text-shadow: -4px 4px #dddddd; */
+}
+.title2{
+    /* border: 3px solid rgb(255, 0, 200); */
+    padding: 1.5%;
+    font-size: 1.6em;
+    font-stretch: extra-condensed;
+    font-weight: 100;
+}
+.insta_all_photos{
+    display: flex;
+}
+.small_photo_div {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0;
+    align-items: flex-start; /* Add this line */
+    overflow: hidden;
+}
+.small_row_1,
+.small_row_2 {
+    display: flex;
+    margin: 0;
+}
+/* .small-row-1{
+    border: 2px solid red;
+}
+.small-row-2{
+    border: 2px solid blue;
+} */
+.photo_big{
+    overflow: hidden;
+}
+.photo_big_img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.photo_small{
+    overflow: hidden;
+}
+.photo_small_img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.photo_big_img:hover{
+    transform: scale(1.12);
+} 
+.photo_small_img:hover{
+    transform: scale(1.12);
+}
+.home_last_div{
+    border: 3px solid rgb(44, 0, 70);
+    background-color: rgb(44, 0, 70);
+    text-align: center;
+}
+.aeroplane_img{
+    width: 11.2%;
+    /* border: 3px solid red; */
+    margin: 3% 0% 1.5% 0%;
+}
+.tile_last{
+    font-size: 28px;
+    font-stretch: ultra-expanded;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+}
+.form_div{
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 4% 0% 2% 0%;
+}
+.input_box{
+    /* opacity: transparent; */
+    width: 32%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(44, 0, 70);
+    border: 2px groove rgb(171, 29, 199);
+    border-right: none;
+    color: white;
+    font-size: 20px;
+}
+.submit_btn{
+    padding: 1% 3% 1% 3%;
+    font-size: 17px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background: rgb(111,44,227);
+    background: linear-gradient(45deg, rgba(111,44,227,1) 39%, rgba(161,44,218,1) 87%);
+    color: white;
+    font-weight: bold;
+    border: 2px groove rgb(171, 29, 199);
+    border-left: none;
+}
+
+.gender_options{
+    text-align: center;
+}
+
+.gender_options label span{
+    color: white;
+    padding-left: 1.5%;
+}
+
+.gender_options input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    margin: 0;
+  }
+  
+  .gender_options input[type="radio"]+span {
+    /* Custom circle appearance */
+    width: 21px;
+    height: 21px;
+    border: 2px solid #59079c; /* Circle border color */
+    border-radius: 50%; /* Create a circle */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10rem; /* Adjust spacing between circle and label text */
+    margin-bottom: 1rem;
+    /* padding-right: 1%; */
+    cursor: pointer;
+  }
+  
+  .gender_options input[type="radio"]:checked+span {
+    /* Custom appearance for checked circle */
+    background-color: #3a077c; /* Fill color for checked circle */
+  }
+
+
+
+/* Hide the default radio button appearance
+.gender-options input[type="radio"] {
+    display: inline;
+    border-style: none;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    margin: 0;
+  }
+  
+  Style the custom radio buttons
+  .gender-options label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 50px; Adjust as needed
+    margin-right: 20px; Adjust as needed
+  }
+  
+  Create the custom radio button appearance
+  .gender-options label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; Size of the radio button
+    height: 20px; Size of the radio button
+    border: 2px solid #5f3ea7;
+    border-radius: 50%; Create a circle
+  }
+  
+  Style the checked state of the custom radio button
+  .gender-options input[type="radio"]:checked + label:before {
+    background-color: hsl(276, 69%, 35%);
+  }
+  
+  Style the text next to the radio buttons
+  .gender-options label span {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .gender-options{
+    margin-bottom: 4%;
+  } */
+
+
+
+
+.arrow_part_div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 0, 70);
+}
+.upward_arrow{
+    width: 0;
+    height: 0;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    border-bottom: 32px solid rgb(255, 255, 255);
+}
+
+.knowmore{
+    color: #d057ff;
+    /* border: 1px solid rgb(248, 220, 248); */
+    /* padding: 1%; */
+    font-size: 15px;
+}
+.caratlan_line{
+    color: white;
+    margin-left: 0.3%;
+    /* margin-bottom: 1; */
+    font-size: 14px;
+}
+
+
+
+
+
+@media (max-width: 998px){
+    .trail_img_div{
+        display: block;
+    }
+
+    .trail_img_1,
+    .trail_img_2 {
+        width: 72%;
+        height: 45rem;
+        border-radius: 10px;
+    }
+
+    .trail_title{
+        font-size: 20px;
+    }
+
+    .old_gold_div{
+        display: block;
+    }
+
+    .old_gold_img{
+        /* border: 2px solid green; */
+        margin-right: 60%;
+        margin-left: 3%;
+        width: 40%;
+        height: 40%;
+    }
+
+    .old_gold_content{
+        font-family:fantasy;
+        font-stretch:semi-expanded;
+        line-height: 1.1;
+        /* border: 2px solid red; */
+        padding: 5%;
+        position: absolute;
+        top: 13%;
+        left: 38%;
+        /* left: 30%; */
+    }
+
+    .knowmore_oldgold_btn{
+        font-size: 17px;
+        padding: 2% 4%;
+    }
+
+    .review_cards{
+        margin: 3% 0% 5% 0%;
+        /* border: 3px solid black; */
+        padding: 1.8% 4% 4.2% 4%;
+    }
+    
+
+    .insta_icon{
+        width: 4.5%;
+    }
+
+    .review_content{
+        padding: 3% 12% 3% 12%;
+        line-height: 1.4;
+        font-stretch: extra-expanded;
+    }
+
+    .review{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 769px){
+    .effect_part_div .effect_mid .view_btn{
+            font-size: 13px;
+    }
+    
+    .trail_img_div{
+        display: block;
+    }
+
+    .trail_img_1,
+    .trail_img_2 {
+        width: 58%;
+        height: 24rem;
+        border-radius: 10px;
+    }
+
+    .trail_title{
+        font-size: 18px;
+    }
+
+    .trail_img1_contents,
+    .trail_img2_contents {
+        position: absolute;
+        top: 16%; 
+        left: 68%;
+        z-index: 1;
+        font-size: 8px;
+    }
+
+    .trail_img1_contents{
+        font-size: 15px;
+    }
+
+    .appointment_btn{
+        padding: 4% 4%;
+        font-size: 14px;
+    }
+
+    .trail_img2_contents select{
+        font-size: 14px;
+        padding: 6% 8%;
+    }
+
+    .old_gold_content{
+        font-size: 80%;
+    }
+
+    .knowmore_oldgold_btn{
+        font-size: 15px;
+        padding: 1% 4%;
+    }
+
+    .Trust_purple_img{
+        border: 2px solid black;
+        width: 56%;
+    }
+
+    .Trust_div p{
+        font-size: 10px;
+    }
+
+    .knowmore_trust_btn{
+        padding: 1.5% 3.4% 1.5% 3.5%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 530px){
+    .effect_part_div .effect_mid .view_btn{
+        font-size: 10px;
+}
+
+.trail_img_1,
+.trail_img_2 {
+    width: 52%;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.trail_img1_contents,
+.trail_img2_contents {
+    position: absolute;
+    top: 16%; 
+    left: 68%;
+    z-index: 1;
+    font-size: 5px;
+}
+
+.trail_title{
+    font-size: 16px;
+}
+
+.trail_img1_contents{
+    font-size: 12px;
+}
+
+.appointment_btn{
+    padding: 4% 4%;
+    font-size: 10px;
+}
+
+.trail_img2_contents select{
+    font-size: 10px;
+    padding: 6% 8%;
+}
+
+.old_gold_content{
+    font-size: 60%;
+}
+
+.knowmore_oldgold_btn{
+    font-size: 13px;
+    padding: 0.8% 4%;
+}
+
+.Trust_purple_img{
+    border: 2px solid black;
+    width: 52%;
+}
+
+.Trust_div p{
+    font-size: 10px;
+}
+
+.knowmore_trust_btn{
+    padding: 1.2% 3.2% 1.2% 3.2%;
+    font-size: 10px;
+}
+}
+
+@media (max-width:389px){
+    .effect_part_div .effect_mid .view_btn{
+        font-size: 8px;
+}
+
+.trail_img_1,
+.trail_img_2 {
+    width: 48%;
+    height: 12rem;
+    border-radius: 10px;
+}
+
+.trail_img1_contents,
+.trail_img2_contents {
+    position: absolute;
+    top: 16%; 
+    left: 68%;
+    z-index: 1;
+    font-size: 5px;
+}
+
+.trail_title{
+    font-size: 15px;
+}
+
+.trail_img1_contents p,
+.trail_img2_contents p{
+    font-size: 6px;
+}
+
+.trail_img1_contents{
+    font-size: 6px;
+}
+
+.appointment_btn{
+    padding: 4% 4%;
+    font-size: 10px;
+}
+
+.trail_img2_contents select{
+    font-size: 10px;
+    padding: 6% 8%;
+}
+
+.old_gold_content{
+    font-size: 60%;
+}
+
+.knowmore_oldgold_btn{
+    font-size: 13px;
+    padding: 0.8% 4%;
+}
+
+.Trust_purple_img{
+    border: 2px solid black;
+    width: 52%;
+}
+
+.Trust_div p{
+    font-size: 10px;
+}
+
+.knowmore_trust_btn{
+    padding: 1.2% 3.2% 1.2% 3.2%;
+    font-size: 10px;
+}
+}
+
+
+/* .upward-arrow1{
+    width: 0;
+    height: 0;
+    border-left: 33px solid transparent;
+    border-right: 33px solid transparent;
+    border-bottom: 33px solid rgb(152, 130, 156);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+} */
+
+
+/* .zoom-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.1); /* Adjust the scale value as needed for the desired zoom level */
+ /* CHECK THIS */
+
+
+/* .trail-img-div{
+    border: 4px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trail-img-div-1{
+    border: 2px solid red;
+}
+.trail-img-div-2{
+    border: 2px solid green;
+}
+.trail-img-1{
+    width: 68%;
+    height: 100%;
+}
+.trail-img-2{
+    width: 68%;
+    height: 100%;
+}
+.trail-img1-contents{
+    z-index: 1;
+    top: 20%;
+    left: 40%;
+}
+.appointment-btn{
+    color: white;
+    font-size: 19px;
+    padding: 2% 4% 2% 4%;
+    border-radius: 5px;
+    background: rgb(170, 39, 155);
+    background: linear-gradient(90deg,  rgb(206, 91, 192,1) 0%, rgb(81, 71, 231) 100%);
+    border: none;
+    position: relative;
+} */
+
+
+
+
+
+
+
+/* .view-btn{
+    padding: 2.2% 6.2% 2.2% 6.2%;
+    font-size:18px;
+    font-weight:lighter;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 100%;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+    border-image-slice: 1;
+} */
+
+/* .view-btn {
+    padding: 2.2% 6.2%;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: white;
+    color: #000;
+    border: 1px solid;
+    border-image: linear-gradient(90deg, rgb(206, 91, 192, 1) 0%, rgb(81, 71, 231) 100%);
+    border-image-slice: 1;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+} */
+
+/* .casarol-img1{
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* object-fit: cover; */
+/* } */

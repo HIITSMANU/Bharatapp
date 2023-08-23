@@ -1,0 +1,118 @@
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* border-top: 4px solid #ff50e0;
+    border-right: 4px solid #506fff;
+    border-bottom: 4px solid #ff50c2;
+    border-left: 4px solid #8450ff; */
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+            linear-gradient(90deg, #d773d7 0%, #48abe0 100%);
+            box-shadow: rgba(43, 114, 172, 0.4) 5px 5px, rgba(46, 166, 240, 0.3) 10px 10px, rgba(171, 31, 120, 0.2) 15px 15px, rgba(205, 25, 139, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  input{
+    border: 2px solid rgb(49, 46, 185);
+  }
+  
+  /*label {
+    display: block;
+    font-weight: bold;
+  }*/
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input.valid {
+    border: 1px solid #4CAF50;
+  }
+  
+  input.invalid {
+    border: 1px solid red;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: #4CAF50;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+
+  }
+  .image img{
+    width: 100px;
+  }
+  .or{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid rgb(99, 94, 94); */
+
+  }
+  .or img{
+    height: 10px;
+    margin-top: 10px;
+  }
+  .or p{
+    color: gray;
+  
+  }
+  .signmidle{
+    text-align: center;
+  }
+  .whatsmid{
+    text-align: center;
+  }
+  .already h3{
+    text-align: center;
+  }
+  .btn{
+    background-color: rgb(194, 244, 194);
+    border-radius: 20px;
+    width: 600px;
+    /* margin-right: 200px; */
+  }
+  .rad{
+    justify-content: center;
+  }
+  .submitbtn{
+    padding: 10px;
+    margin-top: 30px;
+    padding-left:80px;
+    padding-right: 70px;
+    text-align: center;
+    /* margin-left: -250px; */
+    background:linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251))
+    transparent;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; 
+  }
+  .gif{
+    display: flex;
+    justify-content: center;
+  }
