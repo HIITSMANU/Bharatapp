@@ -26,19 +26,19 @@ export const Overview=()=>{
     </Box>
     <Box>
     <HStack spacing={10} fontSize={"xs"}>
-    <div className={styles.Link}><Link href="#text">Overview</Link></div>
-    <div className={styles.Link}><Link href="#next">How It Works</Link></div>
-    <div className={styles.Link}><Link href="#calc">Calculate Your PoP!</Link></div>
-    <div className={styles.Link}><Link href="#why1">Why Bharat Jewels PoP!</Link></div>
-    <Button className={styles.buttonx}>Plan Now</Button></HStack></Box>
+    <div className={styles.Link}><a href="#text">Overview</a></div>
+    <div className={styles.Link}><a href="#next">How It Works</a></div>
+    <div className={styles.Link}><a href="#calc">Calculate Your PoP!</a></div>
+    <div className={styles.Link}><a href="#why1">Why Bharat Jewels PoP!</a></div>
+    <button className={styles.buttonx}>Plan Now</button></HStack></Box>
     </div>
         <div style={{background:"rgb(35, 21, 53);"}}>
-            <div className="text" >
+            <div className={styles.text} id='text'>
             Introducing Bharat Jewels PoP! A hassle-free Plan Of Purchase to buy jewellery quickly, without burning a hole in your pocket.
             <a href="#next"style={{color:"#de57e5" }}> Learn More </a>
             </div>
             <Box>
-                <Image src="https://banner.caratlane.com/live-images/9092e728b0544264bb618317c1285b91.jpg" width={'100'}>
+                <Image src="https://banner.caratlane.com/live-images/9092e728b0544264bb618317c1285b91.jpg" width='100%' overflow="hidden">
                 </Image>
             </Box>
             <div className={styles.box}>
@@ -55,7 +55,8 @@ export const Overview=()=>{
             <a href="#next">Learn More</a></div>
             </div>
         </div>
-        <div className={styles.howitworks}>
+        
+        <div className={styles.howitworks} id='next'>
         <div className={styles.howit}>
       <p>How It Works</p>
       <h1>
@@ -72,7 +73,7 @@ export const Overview=()=>{
     <div className={styles.how2}>
           <div className={styles.img1}>
             <div >
-              <img className={styles.icon} src={Calender} alt="Calender" />
+              <img className={styles.icon2} src={Calender} alt="Calender" />
             </div>
             <div className={styles.tag}>
               <h3>Pay Monthly</h3>
@@ -105,7 +106,7 @@ export const Overview=()=>{
           </div>
         </div>
         </div>
-        <div className={styles.calc}>
+        <div className={styles.calc} id='calc'>
         <div className={styles.howitworks}>
         <div className={styles.howit}>
           <p>Calculate PoP!</p>
@@ -171,7 +172,7 @@ export const Overview=()=>{
           <p>
               YOU GET
               <br />
-              <span><b>300</b></span>
+              <span><b> 300</b></span>
             </p>
           </div>
           </div>
@@ -203,9 +204,9 @@ export const Overview=()=>{
       </div>
       </div>
       <div >
-        <div className={styles.why1}>
+        <div className={styles.why1} id='why1'>
         <div className={styles.banner}>
-        <img src="https://banner.caratlane.com/live-images/210e79132db04bfdb30d349b28834876.jpg" alt="" />
+        <img src="https://banner.caratlane.com/live-images/210e79132db04bfdb30d349b28834876.jpg" alt="" style={{width:"100%"}}/>
         </div>
         <div className={styles.Why}>
         <div>
@@ -235,12 +236,12 @@ export const Overview=()=>{
         <div className={styles.call}>
           <div className={styles.call1}>
             <img className={styles.icon1} src={call2} alt="call" />
-            <p className="p">At Your Service. Always.</p>
+            <p className={styles.p}>At Your Service. Always.</p>
           </div>
           <div className={styles.num}>
             <p className={styles.label1}>Mobile Number </p>
             <div>
-            <input className={styles.input3} type="number" name="mobile" value /></div>
+            <input className={styles.input3} type="number" name="mobile" value style={{width:"45%"}} /></div>
             <button className={styles.planbtreq}>Request Call Back</button>
           </div>
         </div>
@@ -494,7 +495,7 @@ export const Overview=()=>{
         </Accordion>
         </div>
         </div>
-        <div className="vou">
+        <div className={styles.vou}>
         *Gift/Gift Voucher shall carry the meaning of discount vouchers provided by the Company for the monthly installments made by customer scheme under the PoP! and should not be construed as any other benefits and/or contribution by the company to the customers in this regard.
         </div>
       </div>
