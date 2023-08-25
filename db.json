@@ -748,7 +748,17 @@
       "id": 83
     }
   ],
-  "wishlist": [],
+  "wishlist": [
+    {
+      "id": 1,
+      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR05167-WYP900_1_lar.jpg",
+      "price": 61481,
+      "name": "Emma Flora Diamond Ring",
+      "shipping": "Sold by BHFO",
+      "star": 4,
+      "category": "rings"
+    }
+  ],
   "cart": [
     {
       "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR08057-1RP900_1_lar.jpg",

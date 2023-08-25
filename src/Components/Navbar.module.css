@@ -649,7 +649,7 @@ li{
 @media (max-width: 769px){
     .main_nav{
         height: 5.5rem;
-        grid-template-columns: 1rem 1.5fr 0.4fr 1.5fr 2rem;
+        grid-template-columns: 1rem 1.5fr 0.4fr 2.5fr 2rem;
     }
 
     /*.logo img{
@@ -751,7 +751,7 @@ li{
     }
 
     .func_btns ul li{
-        margin: 0% 1rem;
+        margin: 0% 0.5rem;
     }
 
     .mobile_btns{

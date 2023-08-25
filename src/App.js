@@ -8,7 +8,7 @@ function App() {
 
   const currentPath = window.location.pathname;
 
-  const excludedPaths = ['/adminindex', '/alldata', '/dash', '/prodform', '/prodata'];
+  const excludedPaths = ['/adminindex', '/alldata', '/dash', '/prodform', '/prodata','/team'];
 
   const shouldExcludeNavbarFooter = excludedPaths.includes(currentPath);
 

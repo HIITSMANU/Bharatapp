@@ -44,7 +44,7 @@ const Wishlist = () => {
               <span className={styles.span5334}></span>
               <p className={styles.para}>Uh Oh!</p>
               <p className={styles.para}>Your Wishlist Seems to be Empty!</p>
-              <a href="">
+              <a href="/newarrivals">
                 <button content="Start_shopping" className={styles.b5334}>Start Shopping</button>
               </a>
             </div>

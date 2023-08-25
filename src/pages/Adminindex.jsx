@@ -37,7 +37,7 @@ export const Adminindex=() => {
                         <a href="/prodform">Add products</a>
                     </div>
                     <div className={styles.admin_button2}>
-                        <a href="/prodata">Product edits</a>
+                        <a href="/alldata">Product edits</a>
                     </div>
                 </div>
             </div>
