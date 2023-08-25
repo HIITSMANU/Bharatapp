@@ -241,7 +241,7 @@ export const Overview=()=>{
           <div className={styles.num}>
             <p className={styles.label1}>Mobile Number </p>
             <div>
-            <input className={styles.input3} type="number" name="mobile" value /></div>
+            <input className={styles.input3} type="number" name="mobile" value style={{width:"45%"}} /></div>
             <button className={styles.planbtreq}>Request Call Back</button>
           </div>
         </div>
