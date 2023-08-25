@@ -19,7 +19,15 @@ import { AllRoutes } from './AllRoutes';
 //import { Item } from './pages/Item';
 //import { Products } from './pages/Products';
 //import { AllRoutes } from './pages/AllRoutes';
+import { Adminindex } from './pages/Adminindex'
 function App() {
+
+  const currentPath = window.location.pathname;
+
+  const excludedPaths = ['/adminindex', '/alldata', '/dash', '/prodform', '/prodata'];
+
+  const shouldExcludeNavbarFooter = excludedPaths.includes(currentPath);
+
   return (
     /*<h1>Hello</h1>*/
     /* <FindStore />
@@ -35,9 +43,14 @@ function App() {
     <FindStore>*/
      
     <>
-    <Navbar/>
+    {!shouldExcludeNavbarFooter && <Navbar />}
+  {/* {currentPath !== '/adminindex' && <Navbar />} */}
+  {/* {currentPath !== '/adminindex' && <Footer />} */}
+    {/* <Navbar/> */}
     <AllRoutes/>
-    <Footer/>
+    {!shouldExcludeNavbarFooter && <Footer />}
+    {/* {currentPath !== '/adminindex' && <Footer />} */}
+    {/* <Footer/> */}
     </>
      
   );
