@@ -3,6 +3,7 @@ import styles from '../pages/Homepage.module.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { color } from "framer-motion";
 //import useCitySelect from './useCitySelect';
 
 export const Homepage=()=>{
@@ -84,7 +85,7 @@ export const Homepage=()=>{
                             <div className={styles.effect_mid_img_div}>
                                 <img className={styles.effect_photo_mid} src={require(`../Images/effect-photo2.webp`)} alt="effect-photo" />
                             </div>
-                            <div className={styles.view_btn_div}><button className={styles.view_btn}>View All Collections</button></div>
+                            <div className={styles.view_btn_div}><button className={styles.view_btn} style={{color: "black"}}>View All Collections</button></div>
                         </div> 
                         <div className={styles.side_photo_container}>
                             <img className={styles.effect_photo_side} src={require(`../Images/effect-photo3.webp`)} alt="effect-photo" />
@@ -277,7 +278,7 @@ export const Homepage=()=>{
                     <p className={styles.tile_last}>Sign up to be a CaratLane Insider</p>
                     <div className={styles.form_div}>
                         <input type="text" className={styles.input_box}/>
-                        <button className={styles.submit_btn}>Submit</button>
+                        <button className={styles.submitbtn}>Submit</button>
                     </div>
                     <div styles={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <p className={styles.knowmore}>Know more </p>
