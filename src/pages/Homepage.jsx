@@ -130,13 +130,15 @@ export const Homepage=()=>{
                 <div className={styles.old_gold_div}>
                     <img className={styles.old_gold_img} src={require(`../Images/OLD-GOLD.png`)} alt="Old-gold" />
                     <div className={styles.old_gold_content}>
-                        <h1>Your precious gold. Our new designs!</h1><br />
-                        <hr className={styles.design_hr} styles={{margin: "0 65% 0 16%" }} />
-                        <hr className={styles.design_hr} styles={{margin: "1% 68% 0 12%" }} /><br /><br />
+                        <h1 className={styles.old_gold_heading}>Your precious gold. Our new designs!</h1><br />
+                        <hr className={styles.design_hr}/>
+                        <hr className={styles.design_hr}/><br /><br />
                         <p className=""> - A Gold Exchange Program that lets you preserve your memories and make new ones!<br/>  
                             Please note: 
                             The old gold doesn’t have to be from only CaratLane, it can be any gold jewellery you have.  </p><br /><br />
-                            <button className={styles.knowmore_oldgold_btn}>Know more</button>
+                            <button className={styles.knowmore_oldgold_btn}>
+                            <p encoding="UTF-8">Know more</p>
+                                </button>
                     </div>
                 </div>
                 <div className={styles.Trust_div}>
@@ -195,7 +197,7 @@ export const Homepage=()=>{
                             <p className={styles.review}><i> “I got this necklace as my wedding gift and instantly loved it.
                                  It is literally the only accessory I wore on my entire honeymoon. 
                                  I love how delicate and beautiful it is.”</i></p><br />
-                                    <hr className={styles.hr_styles_line}/><br />
+                                    <hr className={styles.hr_style_line}/><br />
                                 <p className={styles.review_author}>- Tanya Gupta via Instagram</p>
                             </div>
                         </div>
@@ -208,7 +210,7 @@ export const Homepage=()=>{
                             <p className={styles.review}><i>”The six of us wanted to celebrate our year of togetherness with something 
                                 which will stay with us forever. So, all of us bought this beautiful ring which is the perfect 
                                 symbol of our friendship and is just so classy!”</i></p><br />
-                                    <hr className={styles.hr_styles_line}/><br />
+                                    <hr className={styles.hr_style_line}/><br />
                                 <p className="review-author">- Shilpa Praveen via Instagram</p>
                             </div>
                         </div>
@@ -223,7 +225,7 @@ export const Homepage=()=>{
                                     Our search was complete when we entered CaratLane store. 
                                     My fiance selected the diamond and I selected the design. 
                                     I love it because it is designed just for me.”</i></p><br />
-                                    <hr className={styles.hr_styles_line}/><br />
+                                    <hr className={styles.hr_style_line}/><br />
                                     <p className="review-author">- Pooja Rajpoot via Instagram</p>
                             </div>
                         </div>
@@ -276,9 +278,15 @@ export const Homepage=()=>{
                         <img className={styles.aeroplane_img} src={require(`../Images/aeroplane.png`)} alt="Aeroplane" />
                     </div>
                     <p className={styles.tile_last}>Sign up to be a CaratLane Insider</p>
+<<<<<<< HEAD
                     <div className={styles.form_div}>
                         <input type="text" className={styles.input_box}/>
                         <button className={styles.submitbtn}>Submit</button>
+=======
+                    <div className={styles.form_div_last}>
+                        <input type="text" className={styles.input_box_form_div} style={{width: "36%"}}/>
+                        <button className={styles.submit_btn}>Submit</button>
+>>>>>>> 3552c74 (changes made in homepage, adminindex, app.js and other css modules)
                     </div>
                     <div styles={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <p className={styles.knowmore}>Know more </p>
