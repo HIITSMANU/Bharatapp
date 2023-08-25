@@ -297,6 +297,8 @@
     .icon666{
           top: 30px;
     right: 25px; 
+        flex-basis: 50%;
+        padding-left: 15px;
     }
 }
 .m666{

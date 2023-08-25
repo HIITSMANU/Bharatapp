@@ -1,6 +1,5 @@
 //import { useContext } from "react";
 //import { Link } from "react-router-dom";
-//import { CartContext } from "../Context/CartContext";
 // import './cart_nav.css';
 import logo1 from"../Images/logo1.png";
 import { useNavigate } from 'react-router-dom';
