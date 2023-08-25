@@ -43,7 +43,7 @@ import { PrivateRoute } from "./Components/Privateroute"
 import { Productaddform } from "./pages/Productaddform"
 import { Showproddata } from "./Components/Showproddata"
 import { Showdata } from "./pages/Showdata"
-//import Team from "./Components/Team"
+import Team from "./Components/Team"
 
 export const AllRoutes=()=>{
     return(
@@ -108,6 +108,7 @@ export const AllRoutes=()=>{
            <Route path="/prodform" element={<Productaddform/>}></Route>
            <Route path="/prodata" element={<Showproddata/>}></Route>
            <Route path="/alldata" element={<Showdata/>}></Route>
+           <Route path="/team" element={<Team/>}></Route>
           {/*
           <Route path="/address" element={<PrivateRoute><Address/></PrivateRoute>}></Route>
            <Route path="/payment" element={<PrivateRoute><Payment/></PrivateRoute>}></Route>

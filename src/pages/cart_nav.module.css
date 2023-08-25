@@ -40,7 +40,6 @@
 .one11{
     font-size: 1.4rem;
     z-index: 20;
-    position: fixed;
     height: 7.2rem;
     left: 0px;
     width: 100%;
@@ -118,7 +117,7 @@
     width: 342px;
     height: 50px;
     position: absolute;
-    top: 50%;
+    top: 7.2%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

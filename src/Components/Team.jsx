@@ -22,7 +22,7 @@ export const  Team = () => {
             <img class={styles.logom} src={logo} alt="logo" width="350px"/>
         </div>
         <h2 style={{fontFamily:"cursive"}} >Presents</h2>
-        <h3 style={{fontFamily:"cursive"}} >Team</h3>
+        <h3 style={{fontFamily:"cursive" , textAlign:"center"}} >Team</h3>
         <br />
         <h1 class={styles.team} > ˂ CODE CRAFTERS ∕˃ </h1>
         <div class={styles.lead} style={{textAlign: "center", marginLeft: "550px"}}>
@@ -39,7 +39,7 @@ export const  Team = () => {
                         <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                        <a href="https://github.com/GartiaLoria/caratlane_clone"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://github.com/GartiaLoria/bharatJewels"><i class="fa fa-github" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>

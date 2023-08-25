@@ -72,7 +72,7 @@ export const Footer=()=>{
                 </div>
                 <div className={styles.col1}>
                     <p className={styles.colHeading}>About Us</p><br />
-                        <p className={styles.colOptions}>OUR TEAM</p>
+                        <a href="/team" className={styles.team}>OUR TEAM</a>
                         <p className={styles.colOptions}>OUR STORY</p>
                         <p className={styles.colOptions}>PRESS</p>
                         <p className={styles.colOptions}>BLOG</p>

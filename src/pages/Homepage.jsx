@@ -278,15 +278,9 @@ export const Homepage=()=>{
                         <img className={styles.aeroplane_img} src={require(`../Images/aeroplane.png`)} alt="Aeroplane" />
                     </div>
                     <p className={styles.tile_last}>Sign up to be a CaratLane Insider</p>
-<<<<<<< HEAD
-                    <div className={styles.form_div}>
-                        <input type="text" className={styles.input_box}/>
-                        <button className={styles.submitbtn}>Submit</button>
-=======
                     <div className={styles.form_div_last}>
                         <input type="text" className={styles.input_box_form_div} style={{width: "36%"}}/>
                         <button className={styles.submit_btn}>Submit</button>
->>>>>>> 3552c74 (changes made in homepage, adminindex, app.js and other css modules)
                     </div>
                     <div styles={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <p className={styles.knowmore}>Know more </p>
