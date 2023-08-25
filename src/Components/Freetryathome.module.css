@@ -78,7 +78,7 @@
     cursor: text;
     outline: none;
   }
-  input {
+/*   input {
     text-rendering: auto;
     color: fieldtext;
     letter-spacing: normal;
@@ -99,7 +99,7 @@
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
     background-color: transparent;
-  }
+  } */
   .locbtn {
     outline: none;
    
