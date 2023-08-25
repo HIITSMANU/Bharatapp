@@ -4,6 +4,8 @@ import styles from "../Components/Navbar.module.css";
 const Navbar= () =>{
     const [showmenu, setShowmenu]=useState(false);
     const [text, setText] = useState("Introducing Bharat Jewels PoP! Plan your purchase");
+    const [datas, setDatas] = useState([]);
+    const [data9,setData9] = useState([]);
     const classNames = {
         active: styles.mobile_btns ,
         inactive: styles.btns_2
@@ -19,6 +21,26 @@ const Navbar= () =>{
 
     return () => clearInterval(intervalId);
     }, [text]);
+    useEffect(() => {
+        async function getCart() {
+          let res = await fetch("http://localhost:3/cart");
+          let data1 = await res.json();
+          setDatas(data1);
+        //   await getTotal(data1);
+        } 
+    
+         getCart();
+      }, []);
+      useEffect(() => {
+        async function getCart() {
+          let res = await fetch("http://localhost:3/wishlist");
+          let data1 = await res.json();
+          setData9(data1);
+        //   await getTotal(data1);
+        } 
+    
+         getCart();
+      }, []);
 
     return(
         <div>
@@ -100,11 +122,13 @@ const Navbar= () =>{
                         <li>
                             <a href="/wishlist">
                                 <img className={styles.heart_img} src={require(`../Images/heart_icon.png`)} alt="" />
+                                <strong> <span className={styles.hei}>{data9.length}</span></strong>
                             </a>
                         </li>
                         <li>
                             <a href="/cart">
                                 <img className={styles.cart_img} src={require(`../Images/cart_icon.png`)} alt="" />
+                               <strong> <span className={styles.hee}>{datas.length}</span></strong>
                             </a>
                         </li>
                     </ul>
@@ -177,3 +201,7 @@ const Navbar= () =>{
 }
 
 export default Navbar;
+           
+                          
+                                
+                      
