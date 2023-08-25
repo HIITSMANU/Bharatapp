@@ -748,62 +748,8 @@
       "id": 83
     }
   ],
-  "wishlist": [
-    {
-      "id": 9,
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR08027-1YP900_1_lar.jpg",
-      "price": 48060,
-      "name": "Romeo Gold Band for Men",
-      "shipping": "Sold by BHFO",
-      "star": 5,
-      "category": "rings"
-    },
-    {
-      "id": 8,
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR05531-1RP9P0_1_lar.jpg",
-      "price": 42472,
-      "name": "Pearly Twig Ring",
-      "shipping": "Sold by BHFO",
-      "star": 2,
-      "category": "rings"
-    },
-    {
-      "id": 7,
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR08058-1YP9P0_1_lar.jpg",
-      "price": 59867,
-      "name": "Meher Pearl Ring",
-      "shipping": "Sold by BHFO",
-      "star": 4,
-      "category": "rings"
-    },
-    {
-      "id": 78,
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/P/JP05558-1YP900_1_lar.jpg",
-      "price": 118833,
-      "name": "Madesha Drop Pendant",
-      "shipping": "Sold by BHFO",
-      "star": 2,
-      "category": "Pendants"
-    }
-  ],
-  "cart": [
-    {
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR01832-YGP600_1_lar.jpg",
-      "price": 35176,
-      "name": "Mutyaa Pearl Ring",
-      "shipping": "Sold by BHFO",
-      "star": 3,
-      "id": 1
-    },
-    {
-      "image": "https://cdn.caratlane.com/media/catalog/product/J/R/JR08055-1RP900_1_lar.jpg",
-      "price": 69949,
-      "name": "Malaya stone Ring",
-      "shipping": "Sold by BHFO",
-      "star": 4,
-      "id": 2
-    }
-  ],
+  "wishlist": [],
+  "cart": [],
   "Gifting": [
     {
       "id": 1,

@@ -43,7 +43,7 @@ import { PrivateRoute } from "./Components/Privateroute"
 import { Productaddform } from "./pages/Productaddform"
 import { Showproddata } from "./Components/Showproddata"
 import { Showdata } from "./pages/Showdata"
-
+//import Team from "./Components/Team"
 
 export const AllRoutes=()=>{
     return(
@@ -51,28 +51,17 @@ export const AllRoutes=()=>{
         <Routes>
            {/* <Route path="/" element={<Allitem />}></Route> */}
            {/*
-           
            <Route path="/adminindex" element={<Adminindex/>}></Route>
-           
            <Route path="/homepage" element={<Homepage/>}></Route>
            <Route path="/wishlist" element={<Wishlist/>}></Route>
             <Route path="/newarrivals"element={<NewArrivals/>}></Route>
           <Route path="/bestsellers" element={<BestSellers/>}></Route>
            {/*
            <Route path="/specialdeals" element={<SpecialDeals/>}></Route>
-          
            <Route path="/bracelets" element={<Bracelets/>}></Route>
-           
             */}
            {/*
-           
-           
-          
-          
-         
-          <Route path="/signup" element={<SignupPage/>}></Route>
-          
-           
+          <Route path="/signup" element={<SignupPage/>}></Route>  
           <Route path="/products/:id" element={<ProductDetails/>}></Route>*/
           }
           

@@ -110,7 +110,7 @@ li{
 
 .btns a{
     position: relative;
-    /* text-decoration: none; */
+    text-decoration: none;
     color: #351746;
     white-space: auto;
     margin-left: 6%;
