@@ -280,7 +280,7 @@ export const Homepage=()=>{
                     <p className={styles.tile_last}>Sign up to be a CaratLane Insider</p>
                     <div className={styles.form_div_last}>
                         <input type="text" className={styles.input_box_form_div} style={{width: "36%"}}/>
-                        <button className={styles.submitbtn}>Submit</button>
+                        <button className={styles.submit_btn}>Submit</button>
                     </div>
                     <div styles={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <p className={styles.knowmore}>Know more </p>
