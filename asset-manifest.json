@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bharatJewels/static/css/main.cdbf9004.css",
-    "main.js": "/bharatJewels/static/js/main.2df5eddb.js",
+    "main.js": "/bharatJewels/static/js/main.edf3ebd3.js",
     "static/js/787.293c2eec.chunk.js": "/bharatJewels/static/js/787.293c2eec.chunk.js",
     "static/media/manu.JPG": "/bharatJewels/static/media/manu.c56586b6880a2ad68120.JPG",
     "static/media/video-middle.mp4": "/bharatJewels/static/media/video-middle.988373a213fc9091f09a.mp4",
@@ -89,11 +89,11 @@
     "static/media/slick.woff": "/bharatJewels/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bharatJewels/index.html",
     "main.cdbf9004.css.map": "/bharatJewels/static/css/main.cdbf9004.css.map",
-    "main.2df5eddb.js.map": "/bharatJewels/static/js/main.2df5eddb.js.map",
+    "main.edf3ebd3.js.map": "/bharatJewels/static/js/main.edf3ebd3.js.map",
     "787.293c2eec.chunk.js.map": "/bharatJewels/static/js/787.293c2eec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdbf9004.css",
-    "static/js/main.2df5eddb.js"
+    "static/js/main.edf3ebd3.js"
   ]
 }
