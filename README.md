@@ -7,7 +7,8 @@ Welcome to the repository for our website! This is a web application built using
 
 
 # Logo
-![Logo](http://localhost:3000/static/media/logo1.f824d26a462698ef5d6c.png)
+![Logo](https://github.com/GartiaLoria/bharatJewels/blob/main/src/images/logo1.png?raw=true)
+
 
 
 ## Features
