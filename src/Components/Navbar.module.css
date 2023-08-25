@@ -11,6 +11,37 @@
 a{
     text-decoration: none;
 }
+.hei{
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to right, rgb(222, 87, 229) 0%, rgb(136, 99, 251) 100%);
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -3px;
+    line-height: 10px;
+    text-align: center;
+    right: -1px;
+    margin-top:20px;
+    margin-right:35px;
+}
+.hee{
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to right, rgb(222, 87, 229) 0%, rgb(136, 99, 251) 100%);
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -3px;
+    line-height: 10px;
+    text-align: center;
+    right: -1px;
+    margin:13px 18px;
+}
   
 li{
     list-style: none;
