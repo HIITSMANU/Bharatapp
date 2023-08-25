@@ -110,23 +110,29 @@
     vertical-align: middle;
     border: 0;
 } */
-.nine334{
+/* .nine334{
     width: 100%;
     position: absolute;
     cursor: pointer;
     top: 0;
-}
-.ten334{
-    position: absolute;
-    right: 4px;
-    top: 4px;
-}
-.span2334{
+} */
+ .ten334{
+    /* position: absolute;
+     right: 4px;
+    top: 40%; */
+     
+     /* margin: 40px 40px; */
+     position: absolute;
+    left:300px;
+    top: 0px;
+    bottom:60px;
+} 
+ .span2334{
     display: block;
     cursor: pointer;
     width: 40px;
     height: 40px;
-}
+} 
 .e334{
     width: 100%;
     position: relative;

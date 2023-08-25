@@ -63,7 +63,7 @@ export let ProductDetails = () => {
               <div className={styles.head_elements}>
               <div className={styles.first_div}>
                   <div className={styles.product_name_div}>
-                      <div className="rating">
+                      <div className={styles.rating}>
                       <img src={require(`../Images/rating.png`)} alt="heart" />
                       </div>
                       <div><h1 className={styles.product_name} id='product-name'>{product.name}</h1></div>
@@ -105,7 +105,7 @@ export let ProductDetails = () => {
                       <Stack>
                           <Wrap spacing={4}>
                               <WrapItem>
-                                  <Button  id="add-button" onClick={AddToCart}><FaShoppingCart /> ADD TO CART</Button>
+                                  <button className={styles.add_button} onClick={AddToCart}><FaShoppingCart /> ADD TO CART</button>
                               </WrapItem>
                           </Wrap>
                       </Stack>
@@ -116,7 +116,7 @@ export let ProductDetails = () => {
                       <Stack>
                           <Wrap spacing={4}>
                               <WrapItem>
-                                  <Button id="find-button">FIND IN STORE</Button>
+                                  <button className={styles.find_button}>FIND IN STORE</button>
                               </WrapItem>
                           </Wrap>
                       </Stack>

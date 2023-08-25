@@ -44,7 +44,7 @@ const Wishlist = () => {
               <span className={styles.span5334}></span>
               <p className={styles.para}>Uh Oh!</p>
               <p className={styles.para}>Your Wishlist Seems to be Empty!</p>
-              <a href="/homepage">
+              <a href="">
                 <button content="Start_shopping" className={styles.b5334}>Start Shopping</button>
               </a>
             </div>
@@ -64,22 +64,24 @@ const Wishlist = () => {
           </div>
           <div className={styles.three334}>
             <div className={styles.four334}>
+              {
+            datas.map((data) =>( 
               <div span="1334" className={styles.five334}>
                 <div className={styles.six334}>
                   <div  data-sku="JL04632-1RP900" className={styles.seven334}>
-                  { 
-                      datas.map((data) =>( 
+                  {/* { 
+                      datas.map((data) =>(  */}
                     <div role="presentation">
                       <div className={styles.eight334}>
                         <img src={data.image} alt="" srcset="" className={styles.img1334}/>
                       </div>
-                      <div className={styles.nine334} role="presentation">
-                        <div className={styles.ten334}>
+                      {/* <div className={styles.nine334} role="presentation"> */}
+                         <div className={styles.ten334}> 
                           <span className={styles.span2334}>
                           <CloseButton onClick={() => deleteWishlist(data.id)}/>
                           </span>
-                        </div> 
-                        </div> 
+                        </div>  
+                        {/* </div>  */}
                         <div className={styles.e334}>
                           <div className={styles.f334}>
                             <p className={styles.p1334}>
@@ -104,10 +106,12 @@ const Wishlist = () => {
                     
                             </div>
                          </div> 
-                    </div>))}
+                    </div>
                   </div>
                 </div>
+              
               </div>
+))}
             </div>
           </div>
         </div>

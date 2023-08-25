@@ -317,7 +317,7 @@
     align-items: flex-start;
     
 }
-#add-button{
+.add_button{
     font-size: 1.2rem;
     height: 3.4rem;
     width: 15.5rem;
@@ -327,7 +327,7 @@
     font-family: 'InterSemiBold','Helvetica Neue',Helvetica,Arial,sans-serif;
     padding-left: 15px;
 }
-#find-button{
+.find_button{
     font-size: 20px;
     height: 3.4rem;
     width: 15.5rem;
